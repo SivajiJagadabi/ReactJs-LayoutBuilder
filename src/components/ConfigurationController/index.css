@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.control-container {
+}
+
+.label-text {
+  color: white;
+  margin-left: 10px;
+}
+
+.input-container {
+  display: flex;
+}

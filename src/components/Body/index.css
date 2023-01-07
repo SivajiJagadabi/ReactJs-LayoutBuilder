@@ -1,0 +1,127 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  width: 80%;
+  height: 448px;
+}
+
+.left-nav-bar {
+  background-color: #cbd5e1;
+  min-width: 30%;
+  margin-right: 5px;
+  height: 380px;
+  padding: 20px;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.content-container {
+  background-color: #f1f5f9;
+  min-width: 40%;
+  padding: 20px;
+  height: 380px;
+  align-self: stretch;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.content-heading {
+  font-size: 22px;
+  color: #475569;
+  font-family: 'Roboto';
+}
+.right-nav-bar {
+  background-color: #cbd5e1;
+  min-width: 30%;
+  margin-left: 5px;
+  height: 380px;
+  padding: 20px;
+  flex-shrink: 0;
+  height: 100%;
+}
+.left-nav-bar-heading {
+  font-size: 22px;
+  color: #475569;
+  font-family: 'Roboto';
+}
+
+.content-description {
+  font-size: 18px;
+  color: #475569;
+  font-family: 'Roboto';
+  line-height: 1.5;
+}
+
+.nav-item {
+  font-size: 18px;
+  color: #475569;
+  font-family: 'Roboto';
+  line-height: 1.5;
+}
+
+.content-description {
+  font-size: 18px;
+  color: #475569;
+  font-family: 'Roboto';
+}
+.nav-items {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.add-card {
+  border: 1px solid #475569;
+  width: 180px;
+  height: 120px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.add1 {
+  color: #475569;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .body-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-nav-bar {
+    width: 100%;
+    height: 280px;
+    margin-bottom: 8px;
+  }
+  .nav-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nav-item {
+    margin-left: 10px;
+  }
+
+  .right-nav-bar {
+    width: 100%;
+  }
+  .content-container {
+    width: 100%;
+    height: 280px;
+    margin-bottom: 8px;
+  }
+  .right-nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 280px;
+    margin-bottom: 8px;
+  }
+  .cards-container {
+    display: flex;
+  }
+  .add-card {
+    width: 90px;
+    margin-left: 10px;
+  }
+}
